@@ -36,11 +36,11 @@
             <div class="form-group">
 	            <label class="form-label">Tags</label>
 
-	            <div class="form-control">
+	            <div class="form-control tags_checkboxs">
 	            	<?php 
 	            		foreach ($tags as $tag) {
 	            			echo $this->Form->label($tag->name);
-							echo $this->Form->checkbox($tag->name, ['value' => $tag->id, 'id' => $tag->name, 'name' => 'tags[_ids][]', 'hiddenField' => false ,'style' => 'vertical-align:middle; ']);
+							echo $this->Form->checkbox($tag->name, ['value' => $tag->id, 'id' => $tag->name, 'name' => 'tags[_ids][]', 'hiddenField' => false ]);
 	            		}
 
                     ?>

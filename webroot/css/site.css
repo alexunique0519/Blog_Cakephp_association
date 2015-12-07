@@ -73,6 +73,11 @@ li.comment_content{
     margin-bottom: 20px;
 }
 
+.tags_checkboxs input{
+    margin-right: 10px;
+}
+
+
 li{
     list-style: none;
 }

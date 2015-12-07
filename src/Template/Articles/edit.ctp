@@ -30,8 +30,8 @@
         </div>
 
          <div>
-          <label>Tags:</label>
-         <div class="form-control">
+          <label>Tags:</label>	
+         <div class="form-control tags_checkboxs">
 	            	<?php 
 	            		foreach ($allTags as $tag) {
 
