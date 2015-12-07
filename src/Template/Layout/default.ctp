@@ -29,7 +29,7 @@
      <?= $this->Html->css('site.css') ?>
 
      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-     <?= $this->Html->script('app') ?>
+     
 
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
