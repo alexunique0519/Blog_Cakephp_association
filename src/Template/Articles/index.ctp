@@ -17,8 +17,12 @@
                     $user = $this->request->session()->read('Auth.User');
                     if(!empty($user))
                     {
-                        echo $this->Html->link('Add New Article', ['action' => 'add']);
+                        echo "<div>".$this->Html->link('Add New Article', ['action' => 'add'])."</div>";
                     }
+                    if($user['role'] == 'admin')
+                    {
+                        echo "<div>".$this->Html->link('Add New Tags', ['controller' => 'Tags', 'action' => 'add'])."</div>";
+                    }    
                 ?>
                     
                 <table class="table table-bordered">

@@ -68,6 +68,10 @@ li.comment_content{
  }
 
 
+#tag_submitBtn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 li{
     list-style: none;
